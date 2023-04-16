@@ -1,0 +1,40 @@
+21:10:46.628 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 8
+21:10:46.630 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 8
+21:10:46.630 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+21:10:46.631 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+21:10:46.631 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+21:10:46.631 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+21:10:46.631 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+21:10:46.641 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+21:10:46.641 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+21:10:46.642 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+21:10:46.642 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+21:10:46.642 [TestNG-tests-2] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+21:10:46.664 [TestNG-tests-2] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+21:10:46.664 [TestNG-tests-2] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+21:10:46.664 [TestNG-tests-2] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+21:10:47.803 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 9912 (auto-detected)
+21:10:47.808 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+21:10:47.809 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+21:10:47.831 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+21:10:47.833 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+21:10:47.855 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 34:de:1a:ff:fe:ec:c0:34 (auto-detected)
+21:10:47.949 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+21:10:47.950 [AsyncHttpClient-1-3] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+21:10:47.950 [AsyncHttpClient-1-3] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c009725
+21:10:48.009 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+21:10:48.009 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+21:10:48.009 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+21:10:48.009 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+21:10:48.009 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true
+21:10:52.235 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+21:10:53.102 [TestNG-tests-5] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x878b7c9706cc0f2c
+21:11:10.132 [TestNG-tests-4] DEBUG com.tests.LoginTest - Navigated to application URL
+21:11:10.466 [TestNG-tests-4] DEBUG com.tests.LoginTest - Clicked on My Account dropdown
+21:11:13.138 [TestNG-tests-4] DEBUG com.tests.LoginTest - Clicked on login option
+21:11:16.427 [TestNG-tests-4] DEBUG com.tests.LoginTest - Email addressed got entered
+21:11:16.617 [TestNG-tests-4] DEBUG com.tests.LoginTest - Password got entered
+21:11:17.378 [TestNG-tests-4] DEBUG com.tests.LoginTest - Clicked on Login Button
+21:11:17.576 [TestNG-tests-4] DEBUG com.tests.LoginTest - User got logged in
+21:11:17.577 [TestNG-tests-4] INFO  com.tests.LoginTest - Login Test got passed
+21:11:18.413 [TestNG-tests-4] DEBUG com.tests.LoginTest - Browser got closed
